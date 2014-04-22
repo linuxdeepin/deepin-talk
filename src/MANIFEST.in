@@ -1,0 +1,5 @@
+include dtalk/views/expression/QQexpression/*.gif
+include dtalk/views/images/*/*.png
+include dtalk/views/qml/*.qml
+include dtalk/views/qml/*/*.qml
+include dtalk/views/qss/dtalk.css
