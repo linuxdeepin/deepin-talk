@@ -61,7 +61,8 @@ class Panel(BaseView):
     
     def __init__(self):
         super(Panel, self).__init__()
-        self.setMinimumSize(QtCore.QSize(336, 780))        
+        self.setMinimumSize(QtCore.QSize(336, 550))        
+        self.resize(336, 700)
         QtWidgets.qApp.focusWindowChanged.connect(self.onFocusWindowChanged)
         self.setIcon(QtGui.QIcon(":/images/common/logo.png"))
         self.setTitle("Deepin Talk")
